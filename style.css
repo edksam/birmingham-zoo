@@ -59,6 +59,20 @@ h3 {
   font-size: 150%;
 }
 
+.bears p {
+  margin-bottom: 40px;
+}
+
+.bears img:nth-child(1) {
+  border-color: rgba(23, 221, 162);
+}
+.bears img:nth-child(2) {
+  border-color: rgb(221, 23, 221);
+}
+.bears img:nth-child(3) {
+  border-color: rgb(221, 86, 23);
+}
+
 button {
   display: inline-block;
   border-radius: 3px;
@@ -113,22 +127,30 @@ footer {
   border: 5px solid #747c92;
 }
 
-.image-container img:first-of-type {
+/* .image-container img:first-of-type {
   vertical-align: bottom;
-}
+} */
 
 .tigers {
   background-color: #0b3c49;
   color: #f0e100;
 }
 
+.tigers h2,
+h3 {
+  color: rgb(235, 84, 30);
+}
+
 .giraffe {
-  background-color: #465775;
+  background-color: #483c46;
   color: #56e39f;
 }
 
 .giraffe h2 {
-  color: #ef6f6c;
+  color: #f4743b;
+}
+.giraffe p {
+  color: #beee62;
 }
 
 .card {
